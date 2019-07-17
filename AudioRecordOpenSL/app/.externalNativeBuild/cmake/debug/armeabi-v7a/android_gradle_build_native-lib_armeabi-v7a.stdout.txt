@@ -1,0 +1,13 @@
+[1/3] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/RecordBuffer.cpp.o
+[2/3] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+In file included from D:\c_project\AudioTrain\AudioRecordOpenSL\app\src\main\cpp\RecordBuffer.cpp:6:
+D:\c_project\AudioTrain\AudioRecordOpenSL\app\src\main\cpp/RecordBuffer.h:14:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int index = -1;
+              ^
+1 warning generated.
+In file included from D:\c_project\AudioTrain\AudioRecordOpenSL\app\src\main\cpp\native-lib.cpp:10:
+D:\c_project\AudioTrain\AudioRecordOpenSL\app\src\main\cpp/RecordBuffer.h:14:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int index = -1;
+              ^
+1 warning generated.
+[3/3] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\armeabi-v7a\libnative-lib.so
